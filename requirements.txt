@@ -1,2 +1,5 @@
+--extra-index-url https://blpapi.bloomberg.com/repository/simple/
 pandas>=2.0
 pytest>=8.0
+ipykernel>=6.0
+blpapi

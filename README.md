@@ -10,6 +10,14 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
+The Bloomberg `blpapi` package must be installed from Bloomberg's package
+index, and Bloomberg Terminal or another authorized Bloomberg API session must
+be running locally:
+
+```powershell
+uv pip install --python .venv\Scripts\python.exe --index-url https://blpapi.bloomberg.com/repository/simple/ blpapi
+```
+
 ## Run the example
 
 ```powershell
